@@ -2,7 +2,7 @@
 # A minimal Blueprint that sets up one Python web service using Flask + Gunicorn.
 
 services:
-  - name: my-password-validator   # A human-friendly name for the service
+  - name: my-password-validator   # A password validator file
     type: web                     # "web" means it's publicly accessible
     runtime: python               # Using Python environment on Render
     plan: free                    # Use the free instance type (change if you need bigger)
